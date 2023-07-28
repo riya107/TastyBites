@@ -1,0 +1,17 @@
+
+
+.type-comment{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #F6412F;
+    width: 100%;
+}
+
+.comment-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-btn{
+    align-self: flex-end;
+}

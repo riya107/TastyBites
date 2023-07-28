@@ -1,0 +1,47 @@
+.side-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #333;
+    width:100%;
+    max-width: 300px;
+    z-index: 1000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+.cross{
+    align-self: flex-start;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories div:hover{
+    color: #F6412F;
+}
+
+.side-logo{
+    width: 50%;
+}
+
+.side-icons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.side-sign{
+    border: 2px solid #A1A1A1;
+}
+
+.side-sign:hover{
+    color: #F6412F;
+}

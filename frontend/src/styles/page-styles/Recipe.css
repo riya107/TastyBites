@@ -1,0 +1,36 @@
+.food-picture{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.recipe-page{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.recipe-creator, .updated-date-wrapper{
+    display: flex;
+}
+
+.creator-name, .updated-date{
+    margin-left: 0.5em;
+}
+
+.recipe-name{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}
+
+.star-comment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-section{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,33 @@
+.food-item{
+    width: 322px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.food-img{
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.food-item-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.food-item:hover{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,39 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    background-color: #f8f4f0;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 1em;
+}
+
+.upper-footer, .lower-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.upper-footer{
+    justify-content: center;
+}
+
+.lower-footer{
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.my-name{
+    font-weight: bold;
+}
+
+.my-image{
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}

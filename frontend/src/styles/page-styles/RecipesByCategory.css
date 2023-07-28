@@ -1,0 +1,31 @@
+.category-recipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sub-categories{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.sub{
+    background-color: #f8f4f0;
+    border-radius: 4px;
+}
+
+.selected{
+    background-color: #F6412F;
+    opacity: 0.9;
+    color: white;
+}
+
+.recipe-label{
+    font-size: 30px;
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 800;
+}

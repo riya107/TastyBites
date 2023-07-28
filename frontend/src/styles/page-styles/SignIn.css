@@ -1,0 +1,29 @@
+.sign-in-container{
+    background-image: url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJlY2lwZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-position:top;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-form input{
+    width: 90vw;
+    max-width: 500px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+}
+
+.sign-up-text{
+    display: flex;
+    font-size: large;
+}
