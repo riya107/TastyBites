@@ -24,6 +24,7 @@ router.post("/signUp", async (req, res) => {
     return res
       .cookie("token", token, {
         expires: new Date(Date.now() + 86400000),
+        sameSite: none
       })
       .status(201)
       .json({ success: true, message: "process successful" });
@@ -54,6 +55,7 @@ router.post("/signIn", async (req, res) => {
         return res
           .cookie("token", token, {
             expires: new Date(Date.now() + 86400000),
+            sameSite:none
           })
           .status(200)
           .json({ success: true, message: "process successful" });
